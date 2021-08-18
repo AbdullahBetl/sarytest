@@ -1,0 +1,33 @@
+.table-container {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+  grid-gap: 15px;
+}
+
+.__table {
+  background: #ffffff;
+
+  table {
+    width: 100%;
+    border-spacing: 0;
+  }
+
+  td,
+  th {
+    padding: 10px 15px;
+    border-bottom: 1px solid #e3e8ee;
+    text-align: left;
+    color: #61646B;
+  }
+}
+
+tr.mat-header-row {
+  height: 45px;
+  background-color: #f7f8f9;
+  th {
+    color: #a7abb8;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}

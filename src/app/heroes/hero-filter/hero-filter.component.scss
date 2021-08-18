@@ -1,0 +1,23 @@
+.__filter-area {
+  background: #ffffff;
+}
+
+.form-area {
+  padding: 15px;
+}
+
+.submit-btn {
+  border: none;
+  // padding: 10px 20px;
+  color: #fff;
+  background: #007aff;
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover {
+    background: #0062a9;
+  }
+}
+
+.mat-form-field {
+  width: 100%;
+}
